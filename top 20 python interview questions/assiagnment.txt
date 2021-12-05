@@ -1,0 +1,186 @@
+Q.1  What is pass in Python?
+
+ans :- Pass means , no-operation Python statements , or in other words it is place holder in compound statement , where there should be a blank left and nothing has to be written there
+
+
+Q.2  What Does The Continue Do In Python? 
+ans:-  The continue is a jump statement in Python which moves the control to execute the next iteration in a loop leaving all the remaining instructions in the block unexecuted.
+ 
+The continue statement is applicable for both the “while” and “for” loops.
+
+
+Q.3  When Should You Use The “Break” In Python? 
+
+Ans :-  Python provides a break statement to exit from a loop. Whenever the break hits in the code, the control of the program immediately exits from the body of the loop.
+ 
+The break statement in a nested loop causes the control to exit from the inner iterative block.
+
+
+Q.4  What Is The Difference Between Pass And Continue In Python? 
+
+Ans :- The continue statement makes the loop to resume from the next iteration.
+ 
+On the contrary, the pass statement instructs to do nothing, and the remainder of the code executes as usual.
+
+Q.5  What Is A String In Python?
+
+Ans:- A string in Python is a sequence of alpha-numeric characters. They are immutable objects. 
+      It means that they don’t allow modification once they get assigned a value. 
+	  Python provides several methods, such as join(), replace(), or split() to alter strings. 
+	  But none of these change the original object.
+	  
+	  
+Q.6  What is different between List and Tuple?
+
+Ans:- Lists and Tuples store one or more objects or values in a specific order. 
+    The objects stored in a list or tuple can be of any type including the nothing type defined by the None Keyword.
+
+    The main difference between lists and a tuples is the fact that lists are mutable whereas tuples are immutable.
+
+     Syntax Differences
+    Lists are surrounded by square brackets [] and Tuples are surrounded by parenthesis ().
+
+     a= [1,2,3,4]
+     b= (1,2,3,4)
+
+    Mutable List vs Immutable Tuples
+    List has mutable nature i.e., we can be changed or modified after its creation according to needs whereas tuple has immutable nature
+    i.e., tuple can’t be changed or modified after its creation.
+ 
+ 
+Q.7  What is dictionary in Python?
+
+Ans :-   Python dictionary is an unordered collection of items. While other compound data types have only value as an element, a dictionary has a key: value pair.
+
+ 
+     Dictionaries are optimized to retrieve values when the key is known.
+
+    How to create a dictionary?
+    Creating a dictionary is as simple as placing items inside curly braces {} separated by comma.
+ 
+    An item has a key and the corresponding value expressed as a pair, key: value.
+Q.8  What are the built-in type does python provides?
+
+Ans:-  There are mutable and Immutable types of Pythons built in types
+    Mutable built-in types
+    1.List
+    2.Sets
+    3.Dictionaries
+    Immutable built-in types
+    1.Strings
+    2.Tuples
+    3.Numbers
+	
+Q.8  What Is A Tuple In Python?
+Ans:- A tuple is a collection type data structure in Python which is immutable.
+    They are similar to sequences, just like the lists. However, There are some differences between a tuple and list; the former doesn’t allow modifications whereas the list does.
+    Also, the tuples use parentheses for enclosing, but the lists have square brackets in their syntax.
+	
+Q.9 What are types of Operator are used in Python? 
+
+Ans:- Arithmetic Operators
+    Comparison Operators
+    Python Assignment Operators
+    Logical Operators or Bitwise Operators
+    Membership Operators
+    Identity Operators
+
+Q.10  What Is A String In Python?
+Ans:- A string in Python is a sequence of alpha-numeric characters.
+    They are immutable objects. It means that they don’t allow modification once they get assigned a value.
+    Python provides several methods, such as join(), replace(), or split() to alter strings. 
+    But none of these change the original object.
+	
+	
+Q.11  How can you randomize the items of a list in place in Python?
+
+Ans:- randamise of list 
+
+Q.12  What Is The Syntax For List Comprehension In Python? 
+
+Ans:- The signature for the list comprehension is as follows:
+ 
+[ expression(var) for var in iterable ]
+
+Q.13  What is lambda in Python?
+Ans :- anonymous function means that a function is without a name. As we already know that def keyword is used to define the normal functions and the lambda keyword is used to create anonymous functions.
+
+     lambda arguments: expression
+Q.14  Mention what are the rules for local and global variables in Python?
+Ans:- Local variables: If a variable is assigned a new value anywhere within the function's body, 
+    it's assumed to be local.
+
+ 
+     Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+Q.15  Mention the use of the split function in Python?
+
+Ans:- The use of the split function in Python is that it breaks a string into shorter strings using the defined separator. 
+     It gives a list of all words present in the string.
+	 
+Q.16  What Is A Function In Python Programming?
+Ans:-   A function is an object which represents a block of code and is a reusable entity. It brings modularity to a program and a higher degree of code reusability.
+
+ 
+     Python has given us many built-in functions such as print() and provides the ability to create user-defined functions.
+
+
+Q.17 What is *args and **kwargs?
+Ans:- *args is used when the programmer is not sure about how many arguments are going to be passed to a function, or if the programmer is expecting a list or a tuple as argument to the function.
+ 
+    **kwargs is used when a dictionary (keyword arguments) is expected as an argument to the function.
+	
+	
+Q.18  What Are Errors And Exceptions In Python Programs?
+
+Ans:-  Errors are coding issues in a program which may cause it to exit abnormally.
+ 
+    On the contrary, exceptions happen due to 
+	the occurrence of an external event which interrupts the normal flow of the program.
+	
+Q.19  What is Index Out Of Range Error?
+Ans:-  When the value passed to the index operator is greater than the actual size of the tuple or list, Index Out of Range error is thrown by Python.
+
+ 
+	>>> a = [1,2,3,4]
+	>>> a[3]
+ 
+		4
+ 
+	>>> a[4]
+ 
+	Traceback (most recent call last):
+ 
+	File "", line 1, in
+ 
+		a[4]
+ 
+	IndexError: list index out of range
+ 
+	>>> b = (1,2,3,4)
+ 
+	>>> b[4]
+ 
+	Traceback (most recent call last):
+ 
+	File "", line 1, in
+ 
+		b[4]
+ 
+	IndexError: tuple index out of range
+
+Q.20  Name some standard Python errors you know?
+
+Ans:- TypeError: Occurs when the expected type doesn’t match with the given type of a variable.
+ 
+	ValueError: When an expected value is not given- if you are expecting 4 elements in a list and you gave 2.
+ 
+	NameError: When trying to access a variable or a function that is not defined.
+ 
+	IOError: When trying to access a file that does not exist. 
+ 
+	IndexError: Accessing an invalid index of a sequence will throw an IndexError.
+ 
+	KeyError: When an invalid key is used to access a value in the dictionary.
+ 
+	We can use dir(__builtin__) will list all the errors in Python.
